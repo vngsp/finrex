@@ -50,6 +50,16 @@ export const loginUser = async (data: loginSchemaType): Promise<AuthResponse> =>
   return result.data;
 };
 
+export const loginGoogle = async (data: registerSchemaType): Promise<AuthResponse> => {
+  const result = await req.post('/LoginUsers/google-login');
+
+  if (!result.data) {
+    console.log('Erro ao fazer cadastro com o Google');
+  }
+
+  return result.data;
+};
+
 export const addRevenueValues = async (data: revenueSchemaType): Promise<revenueSchemaType> => {
   const result = await req.post('/revenue', data);
   return result.data;

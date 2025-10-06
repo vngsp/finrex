@@ -4,23 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c27f75e-0b8a-4582-93d4-eef6baf0216e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/components/PersonalForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/components/PersonalFormInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/components/ProfilePic.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/components/UsageTimeIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/components/UserDatas.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/schemas/profileSchema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/utils/mutations.ts" afterDir="false" />
+    <list default="true" id="1c27f75e-0b8a-4582-93d4-eef6baf0216e" name="Changes" comment="sdf">
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/goals/components/GoalInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/goals/components/GoalInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/login/utils/mutations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/login/utils/mutations.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/api/api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myFormatOnlyChangedLines" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,12 +30,15 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/vngsp/finrex.git&quot;,
-    &quot;accountId&quot;: &quot;462f9c6b-3ab9-4816-bb50-688555df13ef&quot;
+    &quot;url&quot;: &quot;git@github.com:carloswps/finrex.git&quot;,
+    &quot;accountId&quot;: &quot;259d9d4e-73b3-4dc6-8508-3388288d8fa5&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/app/(realApp)/insights/components/GraphExhibition.tsx" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -72,9 +72,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/carlos/.asdf/installs/nodejs/20.19.0/lib/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\vinic\\OneDrive\\Desktop\\finrex\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/carlos/WebstormProjects/finrex/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -93,7 +95,7 @@
       <recent name="C:\Users\vinic\OneDrive\Desktop\finrex\src\app\(realApp)\insights\components" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.localhost:3000">
+  <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
     </configuration>
@@ -119,7 +121,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
       </set>
     </attachedChunks>
   </component>
@@ -215,6 +217,13 @@
       <workItem from="1759178733390" duration="3296000" />
       <workItem from="1759238475957" duration="4339000" />
       <workItem from="1759246089763" duration="4055000" />
+      <workItem from="1759684080257" duration="325000" />
+      <workItem from="1759768241598" duration="73000" />
+      <workItem from="1759773888040" duration="104000" />
+      <workItem from="1759774192954" duration="224000" />
+      <workItem from="1759774447651" duration="46000" />
+      <workItem from="1759774832381" duration="462000" />
+      <workItem from="1759776615964" duration="1221000" />
     </task>
     <servers />
   </component>
@@ -234,11 +243,6 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/(realApp)/goals/components/GoalInfo.tsx</url>
-          <line>73</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/(realApp)/profit/components/ProfitGraph.tsx</url>
           <line>61</line>
           <option name="timeStamp" value="5" />
@@ -250,7 +254,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/(realApp)/profile/components/PersonalForm.tsx</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
