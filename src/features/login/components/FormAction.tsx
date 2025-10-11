@@ -1,4 +1,6 @@
-import { useState } from 'react';
+'use client';
+
+import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { loginSchema, loginSchemaType, registerSchema, registerSchemaType } from '../schemas/loginSchema';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -6,15 +8,17 @@ import { LoginInputs } from './LoginInputs';
 import LoginBtn from './LoginBtn';
 import HaveAccount from './HaveAccount';
 import LoginLoad from './LoginLoad';
-import { useRouter } from 'next/navigation';
 import { useAddRegister, useLogin } from '../utils/mutations';
 import ErrorAlert from './ErrorAlert';
+import { loginGoogle, logoutGoogle } from '@/shared/lib/api/api';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 type FormData = loginSchemaType | registerSchemaType;
 
 const FormAction = () => {
   const [isRegisterMode, setIsRegisterMode] = useState(false);
   const router = useRouter();
+  const searchParams = useSearchParams();
 
   const schema = isRegisterMode ? registerSchema : loginSchema;
 
@@ -25,6 +29,19 @@ const FormAction = () => {
       password: '',
     },
   });
+
+  useEffect(() => {
+    const token = searchParams.get('token');
+
+    if (token) {
+      localStorage.setItem('token', token as string);
+
+      const cleanUrl = window.location.pathname;
+      window.history.replaceState({}, document.title, cleanUrl);
+
+      router.push('/revenue');
+    }
+  }, [router, searchParams]);
 
   const registerMutation = useAddRegister({
     onSuccess: () => {
@@ -87,6 +104,26 @@ const FormAction = () => {
         </div>
       </form>
       {mutation.isError && mutation.error && <ErrorAlert message={mutation.error.message} />}
+
+      <button
+        onClick={() => {
+          console.log('Redirect for google login...');
+          loginGoogle();
+        }}
+        className={'m-2 cursor-pointer bg-red-500'}
+      >
+        Login with Google
+      </button>
+
+      <button
+        onClick={() => {
+          console.log('logout...');
+          logoutGoogle();
+        }}
+        className={'cursor-pointer bg-blue-500'}
+      >
+        Logout
+      </button>
     </div>
   );
 };

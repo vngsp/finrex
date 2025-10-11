@@ -5,7 +5,7 @@ import { revenueSchema, revenueSchemaType } from '../schemas/revenueSchema';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { incomeItem } from '../types/incomeType';
 import TitleAndSubtitle from '@/shared/components/TitleAndSubtitle';
-import { useRevenueValues } from '../../../../features/login/utils/mutations';
+import { useRevenueValues } from '@/features/login/utils/mutations';
 
 type Props = {
   data: incomeItem[];

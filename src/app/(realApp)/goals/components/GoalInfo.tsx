@@ -8,7 +8,8 @@ type Props = {
   setSavedPrice: (value: number) => void;
 };
 
-const GoalInfo = ({ isEditing, setIsEditing, remainingPrice, price, setPrice, savedPrice, setSavedPrice }: Props) => {
+const GoalInfo = ({ isEditing, remainingPrice, price, setPrice, savedPrice, setSavedPrice }: Props) => {
+
   return (
     <div className={'flex flex-col items-center'}>
       <div className={'flex gap-12'}>

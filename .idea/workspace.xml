@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c27f75e-0b8a-4582-93d4-eef6baf0216e" name="Changes" comment="sdf">
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(realApp)/goals/components/GoalInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/goals/components/GoalInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/profile/components/PersonalForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/components/PersonalForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/profile/utils/mutations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/utils/mutations.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/revenue/components/RevenueForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/revenue/components/RevenueForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/login/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/login/LoginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/login/components/ErrorHandlerInitializer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/login/components/ErrorHandlerInitializer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/login/components/FormAction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/login/components/FormAction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/login/components/LoginInputs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/login/components/LoginInputs.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/login/utils/mutations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/login/utils/mutations.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/lib/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/api/api.ts" afterDir="false" />
     </list>
@@ -15,6 +25,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myFormatOnlyChangedLines" value="true" />
@@ -41,7 +58,7 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -68,18 +85,26 @@
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/carlos/.asdf/installs/nodejs/20.19.0/lib/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/carlos/WebstormProjects/finrex/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/529/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/tmp/qodana_output/qodana.sarif.json" reportGuid="25e4f4b0-a0bf-4a1b-a12a-479a9f0975ca" reportId="finrex/qodana/2025-10-09" />
+    </option>
+  </component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -224,6 +249,27 @@
       <workItem from="1759774447651" duration="46000" />
       <workItem from="1759774832381" duration="462000" />
       <workItem from="1759776615964" duration="1221000" />
+      <workItem from="1759841199245" duration="156000" />
+      <workItem from="1759841832761" duration="425000" />
+      <workItem from="1759843884963" duration="4364000" />
+      <workItem from="1759848305515" duration="208000" />
+      <workItem from="1759848609094" duration="671000" />
+      <workItem from="1759852388908" duration="1697000" />
+      <workItem from="1759854850589" duration="835000" />
+      <workItem from="1759857346352" duration="5676000" />
+      <workItem from="1759925295640" duration="164000" />
+      <workItem from="1759934214364" duration="15000" />
+      <workItem from="1760023492399" duration="2243000" />
+      <workItem from="1760098075560" duration="493000" />
+      <workItem from="1760101956432" duration="13000" />
+      <workItem from="1760102298458" duration="437000" />
+      <workItem from="1760103916615" duration="2062000" />
+      <workItem from="1760107562141" duration="1509000" />
+      <workItem from="1760113388820" duration="704000" />
+      <workItem from="1760116986165" duration="340000" />
+      <workItem from="1760143819256" duration="8694000" />
+      <workItem from="1760153546285" duration="116000" />
+      <workItem from="1760153791210" duration="593000" />
     </task>
     <servers />
   </component>
@@ -250,11 +296,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/(realApp)/profile/components/UsageTimeIcon.tsx</url>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/(realApp)/profile/components/PersonalForm.tsx</url>
-          <line>1</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,8 +1,8 @@
 import { useController, UseControllerProps } from 'react-hook-form';
-import { loginSchemaType } from '@/app/(auth)/login/schemas/loginSchema';
 import { useState } from 'react';
 import HideIcon from './icons/HideIcon.svg';
 import ShowIcon from './icons/ShowIcon.svg';
+import { loginSchemaType } from '@/features/login/schemas/loginSchema';
 
 type LoginInputProps = UseControllerProps<loginSchemaType> & {
   label: string;
@@ -38,12 +38,12 @@ export const LoginInputs = (props: LoginInputProps) => {
           (isHidden ? (
             <HideIcon
               onClick={toggleHide}
-              className={'absolute bottom-9 right-3 h-6 w-6 cursor-pointer text-[var(--lines-color)]'}
+              className={'absolute right-3 bottom-9 h-6 w-6 cursor-pointer text-[var(--lines-color)]'}
             />
           ) : (
             <ShowIcon
               onClick={toggleHide}
-              className={'absolute bottom-9 right-3 h-6 w-6 cursor-pointer text-[var(--lines-color)]'}
+              className={'absolute right-3 bottom-9 h-6 w-6 cursor-pointer text-[var(--lines-color)]'}
             />
           ))}
       </div>
