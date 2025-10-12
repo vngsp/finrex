@@ -1,17 +1,18 @@
 'use client';
 
+import { loginGoogle } from '@/shared/lib/api/api';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
+import { FcGoogle } from 'react-icons/fc';
 import { loginSchema, loginSchemaType, registerSchema, registerSchemaType } from '../schemas/loginSchema';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { LoginInputs } from './LoginInputs';
-import LoginBtn from './LoginBtn';
-import HaveAccount from './HaveAccount';
-import LoginLoad from './LoginLoad';
 import { useAddRegister, useLogin } from '../utils/mutations';
 import ErrorAlert from './ErrorAlert';
-import { useRouter, useSearchParams } from 'next/navigation';
-import { loginGoogle } from '@/shared/lib/api/api';
+import HaveAccount from './HaveAccount';
+import LoginBtn from './LoginBtn';
+import { LoginInputs } from './LoginInputs';
+import LoginLoad from './LoginLoad';
 
 type FormData = loginSchemaType | registerSchemaType;
 
@@ -89,22 +90,19 @@ const FormAction = () => {
 
         <div className={'flex flex-col items-center gap-4'}>
           <LoginBtn hasLoggedIn={isRegisterMode} disabled={mutation.isPending} />
-
           {mutation.isPending && <LoginLoad label={isRegisterMode ? 'Sign Up' : 'Login'} />}
           <HaveAccount hasLoggedIn={isRegisterMode} toggleLogged={toggleFormMode} />
+          <button className="cursor-pointer">
+            <FcGoogle
+              size={20}
+              onClick={() => {
+                loginGoogle();
+              }}
+            />
+          </button>
         </div>
       </form>
       {mutation.isError && mutation.error && <ErrorAlert message={mutation.error.message} />}
-
-      <button
-        onClick={() => {
-          console.log('Redirect for google login...');
-          loginGoogle();
-        }}
-        className={'m-2 cursor-pointer bg-red-500'}
-      >
-        Login with Google
-      </button>
     </div>
   );
 };
