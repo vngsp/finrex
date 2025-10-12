@@ -71,7 +71,7 @@ const FormAction = () => {
 
       <form
         onSubmit={handleSubmit(handleFormSubmit)}
-        className={'mt-8 flex max-w-sm flex-col text-[var(--text-color)]'}
+        className={'mt-6 flex max-w-sm flex-col text-[var(--text-color)]'}
       >
         <LoginInputs
           name={'email'}
@@ -91,15 +91,19 @@ const FormAction = () => {
         <div className={'flex flex-col items-center gap-4'}>
           <LoginBtn hasLoggedIn={isRegisterMode} disabled={mutation.isPending} />
           {mutation.isPending && <LoginLoad label={isRegisterMode ? 'Sign Up' : 'Login'} />}
-          <HaveAccount hasLoggedIn={isRegisterMode} toggleLogged={toggleFormMode} />
-          <button className="cursor-pointer">
-            <FcGoogle
-              size={20}
-              onClick={() => {
-                loginGoogle();
-              }}
-            />
-          </button>
+          <div className='flex items-center gap-2'>
+            <HaveAccount hasLoggedIn={isRegisterMode} toggleLogged={toggleFormMode} />
+            <button className='cursor-pointer'>
+              <FcGoogle
+                title='Login com o Google...'
+                aria-label='Login com o Google...'
+                size={18}
+                onClick={() => {
+                  loginGoogle();
+                }}
+              />
+            </button>
+          </div>
         </div>
       </form>
       {mutation.isError && mutation.error && <ErrorAlert message={mutation.error.message} />}

@@ -42,9 +42,9 @@ const RevenueForm = ({ data, secondData }: Props) => {
   return (
     <div>
       <form onSubmit={handleSubmit(handleFormSubmit)}>
-        <div className="grid grid-cols-2">
-          <div className="mr-22 border-r border-[var(--lines-color)]">
-            <TitleAndSubtitle title="Monthly income" subTitle="Log your income" />
+        <div className='grid grid-cols-2'>
+          <div className='mr-22 border-r border-[var(--lines-color)]'>
+            <TitleAndSubtitle title='Monthly income' subTitle='Log your income' />
             {data.map(input => (
               <DefaultInput
                 key={input.name}
@@ -55,8 +55,8 @@ const RevenueForm = ({ data, secondData }: Props) => {
               />
             ))}
           </div>
-          <div className="pl-6">
-            <TitleAndSubtitle title="Monthly Spending" subTitle="Record your expenses" />
+          <div className='pl-6'>
+            <TitleAndSubtitle title='Monthly Spending' subTitle='Record your expenses' />
             {secondData.map(input => (
               <DefaultInput
                 key={input.name}
@@ -68,7 +68,7 @@ const RevenueForm = ({ data, secondData }: Props) => {
             ))}
           </div>
         </div>
-        <input type="submit" className="hidden" />
+        <input type='submit' className='hidden' />
       </form>
     </div>
   );

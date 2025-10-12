@@ -17,8 +17,8 @@ const ErrorAlert = ({ message }: { message?: string }) => {
   return (
     <div
       className={
-        'top-100 left-160 absolute h-12 w-auto min-w-[200px] bg-[var(--red-theme)]' +
-        ' z-40 flex items-center justify-center text-nowrap rounded-md border px-4 py-2 text-center'
+        'absolute top-100 left-160 h-12 w-auto min-w-[200px] bg-[var(--red-theme)]' +
+        ' z-40 flex items-center justify-center rounded-md border px-4 py-2 text-center text-nowrap'
       }
     >
       {message}

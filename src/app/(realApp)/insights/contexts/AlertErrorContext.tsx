@@ -1,10 +1,12 @@
 import { createContext, ReactNode, useContext, useState } from 'react';
 
-export type ErrorMessage = {
-  Success: boolean,
-  Error: number,
-  Mensagem: string,
-} | undefined;
+export type ErrorMessage =
+  | {
+      Success: boolean;
+      Error: number;
+      Mensagem: string;
+    }
+  | undefined;
 
 interface AlertErrorContextType {
   error: ErrorMessage;

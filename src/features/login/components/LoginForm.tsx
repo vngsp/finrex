@@ -9,7 +9,7 @@ const LoginForm = () => {
     <div className={'flex h-screen w-screen justify-center'}>
       <div className={'w-1/2 bg-white p-8'}>
         <div>
-          <img src="/darkLogo.png" alt="" className={'w-40'} />
+          <img src='/darkLogo.png' alt='' className={'w-40'} />
         </div>
         <div className={'mt-24'}>
           <FormAction />
@@ -22,7 +22,7 @@ const LoginForm = () => {
           <BarsLogin />
           <Cubes position={'fixed'} relativeY={'top-178'} relativeX={'left-384'} rotate={'rotate-180'} />
         </div>
-        <div className={'top-143 relative flex flex-col items-center justify-center'}>
+        <div className={'relative top-143 flex flex-col items-center justify-center'}>
           <h3 className={'mb-2 text-xl font-bold'}>Change the way you Manage Your Money</h3>
           <p className={'w-60 text-center'}>
             Welcome to Finrex — your smart tool for organizing and tracking your finances with ease.

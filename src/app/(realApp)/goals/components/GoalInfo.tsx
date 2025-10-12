@@ -9,7 +9,6 @@ type Props = {
 };
 
 const GoalInfo = ({ isEditing, remainingPrice, price, setPrice, savedPrice, setSavedPrice }: Props) => {
-
   return (
     <div className={'flex flex-col items-center'}>
       <div className={'flex gap-12'}>
@@ -20,7 +19,7 @@ const GoalInfo = ({ isEditing, remainingPrice, price, setPrice, savedPrice, setS
               <div className={'relative'}>
                 <span className={'invisible text-xl font-bold text-[var(--text-color)]'}>{price}</span>
                 <input
-                  type="text"
+                  type='text'
                   className={'absolute inset-0 w-full text-xl font-bold text-[var(--text-color)] outline-none'}
                   value={price}
                   onChange={e => setPrice(Number(e.target.value))}
@@ -49,7 +48,7 @@ const GoalInfo = ({ isEditing, remainingPrice, price, setPrice, savedPrice, setS
         <div className={'mt-3 flex flex-col items-center'}>
           <label className={'text-md font-semibold text-[var(--purple-theme)]'}>Total saved:</label>
           <input
-            type="text"
+            type='text'
             className={'text-center text-xl font-bold text-[var(--text-color)] outline-none'}
             value={savedPrice}
             onChange={e => setSavedPrice(Number(e.target.value))}

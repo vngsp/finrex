@@ -5,7 +5,7 @@ import RevenueForm from './RevenueForm';
 
 const Revenue = () => {
   return (
-    <div className="flex flex-col bg-white">
+    <div className='flex flex-col bg-white'>
       <RevenueForm data={incomeData} secondData={spendingData} />
     </div>
   );

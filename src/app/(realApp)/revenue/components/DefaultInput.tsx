@@ -17,7 +17,7 @@ const DefaultInput = (props: DefaultInputProps) => {
 
   return (
     <div className={'flex max-h-[94px] flex-col'}>
-      <label className={'text-lg font-bold text-[var(--text-color)]'} htmlFor="inputName">
+      <label className={'text-lg font-bold text-[var(--text-color)]'} htmlFor='inputName'>
         <span className={'flex items-center gap-2'}>
           {props.label}
           {props.labelIcon && <Edit className={'h-4 w-4'} />}
@@ -27,7 +27,7 @@ const DefaultInput = (props: DefaultInputProps) => {
       <div className={'relative flex items-center'}>
         {props.inputIcon && <Money className={'absolute bottom-[30px] ml-2 h-5 w-5 text-[var(--desactive-color)]'} />}
         <input
-          type="number"
+          type='number'
           value={field.value === undefined || field.value === null ? '' : field.value}
           className={
             'input-no-spinner mb-4 w-full max-w-md rounded-md border border-[var(--green-theme)] p-3 pl-8 font-bold text-[var(--text-color)] outline-none'
@@ -42,7 +42,7 @@ const DefaultInput = (props: DefaultInputProps) => {
           }}
         />
         {fieldState.error && (
-          <p className="-mt-6 ml-2 font-semibold text-[var(--text-color)]">{fieldState.error.message}</p>
+          <p className='-mt-6 ml-2 font-semibold text-[var(--text-color)]'>{fieldState.error.message}</p>
         )}
       </div>
     </div>
