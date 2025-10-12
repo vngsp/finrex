@@ -10,8 +10,8 @@ import HaveAccount from './HaveAccount';
 import LoginLoad from './LoginLoad';
 import { useAddRegister, useLogin } from '../utils/mutations';
 import ErrorAlert from './ErrorAlert';
-import { loginGoogle, logoutGoogle } from '@/shared/lib/api/api';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { loginGoogle } from '@/shared/lib/api/api';
 
 type FormData = loginSchemaType | registerSchemaType;
 
@@ -22,6 +22,10 @@ const FormAction = () => {
 
   const schema = isRegisterMode ? registerSchema : loginSchema;
 
+  useEffect(() => {
+    router.refresh();
+  }, [router]);
+
   const { control, handleSubmit, reset } = useForm<FormData>({
     resolver: zodResolver(schema),
     defaultValues: {
@@ -29,19 +33,6 @@ const FormAction = () => {
       password: '',
     },
   });
-
-  useEffect(() => {
-    const token = searchParams.get('token');
-
-    if (token) {
-      localStorage.setItem('token', token as string);
-
-      const cleanUrl = window.location.pathname;
-      window.history.replaceState({}, document.title, cleanUrl);
-
-      router.push('/revenue');
-    }
-  }, [router, searchParams]);
 
   const registerMutation = useAddRegister({
     onSuccess: () => {
@@ -51,7 +42,7 @@ const FormAction = () => {
   });
   const loginMutation = useLogin({
     onSuccess: () => {
-      router.push('/revenue');
+      router.push('/insights');
     },
   });
 
@@ -113,16 +104,6 @@ const FormAction = () => {
         className={'m-2 cursor-pointer bg-red-500'}
       >
         Login with Google
-      </button>
-
-      <button
-        onClick={() => {
-          console.log('logout...');
-          logoutGoogle();
-        }}
-        className={'cursor-pointer bg-blue-500'}
-      >
-        Logout
       </button>
     </div>
   );
