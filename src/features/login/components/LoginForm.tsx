@@ -1,4 +1,5 @@
 'use client';
+import { Suspense } from 'react';
 import BarsLogin from './barsLogin';
 import Cubes from './Cubes';
 import FormAction from './FormAction';
@@ -12,7 +13,9 @@ const LoginForm = () => {
           <img src='/darkLogo.png' alt='' className={'w-40'} />
         </div>
         <div className={'mt-24'}>
-          <FormAction />
+          <Suspense fallback={<div>Loading...</div>}>
+            <FormAction />
+          </Suspense>
         </div>
       </div>
       <div className={'btn-gradient flex w-full flex-col'}>

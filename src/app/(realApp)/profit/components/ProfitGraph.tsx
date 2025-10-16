@@ -102,7 +102,7 @@ const ProfitGraph = ({ width, height, color, fill = true, minimal = false }: Pro
     return () => {
       myChart.destroy();
     };
-  }, []);
+  }, [color, fill, minimal]);
 
   return (
     <div style={{ width, height }} className={'relative w-full'}>

@@ -2,7 +2,7 @@
 
 import { loginGoogle } from '@/shared/lib/api/api';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { FcGoogle } from 'react-icons/fc';
@@ -19,7 +19,6 @@ type FormData = loginSchemaType | registerSchemaType;
 const FormAction = () => {
   const [isRegisterMode, setIsRegisterMode] = useState(false);
   const router = useRouter();
-  const searchParams = useSearchParams();
 
   const schema = isRegisterMode ? registerSchema : loginSchema;
 

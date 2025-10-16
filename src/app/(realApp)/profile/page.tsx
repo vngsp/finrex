@@ -6,7 +6,6 @@ const Page = () => {
       <div className={'w-3/4'}>
         <PersonalForm />
       </div>
-      <div>//graph</div>
     </div>
   );
 };

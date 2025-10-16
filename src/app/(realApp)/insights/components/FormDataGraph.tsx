@@ -78,7 +78,7 @@ const FormDataGraph = ({ width, height, margin, chartOptions, chartData }: Props
     return () => {
       myChart.destroy();
     };
-  }, [context?.style, chartOptions, chartData]);
+  }, [context?.style, chartOptions, chartData, context]);
 
   return (
     <div

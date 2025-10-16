@@ -1,11 +1,5 @@
 import GrowthIndicator from '@/app/(realApp)/profit/components/GrowthIndicator';
 
-type Props = {
-  month: string;
-  percentage: number;
-  arrowIcon: string;
-};
-
 const TopEarnMonths = () => {
   return (
     <>

@@ -10,8 +10,6 @@ import { ProfileFormValues, profileSchema } from '@/app/(realApp)/profile/schema
 import { useProfileData } from '@/app/(realApp)/profile/utils/mutations';
 
 const PersonalForm = () => {
-  const [isEditing, setIsEditing] = useState(false);
-
   const { handleSubmit, control } = useForm<ProfileFormValues>({
     resolver: zodResolver(profileSchema),
   });

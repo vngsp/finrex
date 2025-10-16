@@ -40,13 +40,13 @@ interface AuthResponse {
 }
 
 export const registerUser = async (data: registerSchemaType): Promise<AuthResponse> => {
-  const result = await req.post<AuthResponse>('/LoginUsers/register', data);
+  const result = await req.post<AuthResponse>('/login-users/register', data);
   return result.data;
 };
 
 export const loginUser = async (data: loginSchemaType): Promise<AuthResponse> => {
   try {
-    const result = await req.post<AuthResponse>('/LoginUsers/login', data);
+    const result = await req.post<AuthResponse>('/login-users/login', data);
 
     if (result.data.token) {
       Cookies.set('finrex.auth', result.data.token, {
@@ -64,7 +64,7 @@ export const loginUser = async (data: loginSchemaType): Promise<AuthResponse> =>
 
 export const loginGoogle = () => {
   const redirectUri = 'http://localhost:3000/insights';
-  window.location.href = `http://localhost:5023/api/v1/LoginUsers/google-login?redirect_uri=${encodeURIComponent(redirectUri)}`;
+  window.location.href = `http://localhost:5023/api/v1/login-users/google-login?redirect_uri=${encodeURIComponent(redirectUri)}`;
 };
 
 export const addRevenueValues = async (data: revenueSchemaType): Promise<revenueSchemaType> => {
