@@ -4,34 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c27f75e-0b8a-4582-93d4-eef6baf0216e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/(realApp)/profit/utils/ResolveColorCss.ts" afterDir="false" />
+    <list default="true" id="1c27f75e-0b8a-4582-93d4-eef6baf0216e" name="Changes" comment="Update GrowthIndicator component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/goals/components/GoalGraph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/goals/components/GoalGraph.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/insights/components/Bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/insights/components/Bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/insights/components/FormDataGraph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/insights/components/FormDataGraph.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/insights/components/GraphExhibition.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/insights/components/GraphExhibition.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/insights/components/LastMonth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/insights/components/LastMonth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/insights/components/RealSpendingGraph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/insights/components/RealSpendingGraph.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/insights/contexts/GraphContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/insights/contexts/GraphContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/insights/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/insights/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/profile/components/PersonalForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/components/PersonalForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/profile/components/UsageGraph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/components/UsageGraph.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/profile/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/profile/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/profit/components/ProfitGraph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/profit/components/ProfitGraph.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/profit/components/SavingsTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/profit/components/SavingsTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/profit/components/TableRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/profit/components/TableRow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(realApp)/profit/components/TopEarnMonths.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(realApp)/profit/components/TopEarnMonths.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Summary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="138" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -42,12 +39,19 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/vngsp/finrex.git&quot;,
-    &quot;accountId&quot;: &quot;462f9c6b-3ab9-4816-bb50-688555df13ef&quot;
+    &quot;url&quot;: &quot;https://github.com/carloswps/finrex.git&quot;,
+    &quot;accountId&quot;: &quot;cf402fa2-9e58-4169-8649-d78fbb5d94a4&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/app/(realApp)/insights/components/GraphExhibition.tsx" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -68,22 +72,32 @@
   &quot;keyToString&quot;: {
     &quot;JavaScript Debug.localhost:3000.executor&quot;: &quot;Debug&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/carlos/WebstormProjects/finrex/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/carlos/.asdf/installs/nodejs/20.19.0/lib/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Biome&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\vinic\\OneDrive\\Desktop\\finrex\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/593/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -97,12 +111,17 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/features" />
       <recent name="C:\Users\vinic\OneDrive\Desktop\finrex\src\app\components" />
       <recent name="C:\Users\vinic\OneDrive\Desktop\finrex\src\app\(realApp)\insights\components" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.localhost:3000">
+  <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
     </configuration>
@@ -128,7 +147,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-WS-261.22158.274" />
       </set>
     </attachedChunks>
   </component>
@@ -239,15 +258,143 @@
       <workItem from="1759939285943" duration="7110000" />
       <workItem from="1759975860489" duration="582000" />
       <workItem from="1760375006667" duration="322000" />
+      <workItem from="1760724025877" duration="33000" />
+      <workItem from="1760724343460" duration="97000" />
+      <workItem from="1760724462464" duration="1254000" />
+      <workItem from="1760727094558" duration="3673000" />
+      <workItem from="1760807894140" duration="3543000" />
+      <workItem from="1761059318195" duration="493000" />
+      <workItem from="1761060065343" duration="1679000" />
+      <workItem from="1761061779353" duration="234000" />
+      <workItem from="1761062049298" duration="1558000" />
+      <workItem from="1761068864767" duration="5083000" />
+      <workItem from="1761074001058" duration="2335000" />
+      <workItem from="1762373356708" duration="88000" />
+      <workItem from="1775359017673" duration="521000" />
+      <workItem from="1775573194709" duration="2379000" />
+      <workItem from="1775923995747" duration="2081000" />
+      <workItem from="1775930440546" duration="1733000" />
+      <workItem from="1775932311508" duration="138000" />
+      <workItem from="1775932493592" duration="5208000" />
+      <workItem from="1775939675628" duration="103000" />
+      <workItem from="1775946599595" duration="39000" />
+      <workItem from="1775946670564" duration="400000" />
+      <workItem from="1775947147018" duration="8535000" />
+      <workItem from="1776041470645" duration="2376000" />
+      <workItem from="1776174422674" duration="8000" />
+      <workItem from="1776188140653" duration="4088000" />
     </task>
+    <task id="LOCAL-00001" summary="perf: Update the architecture of the project.&#10;Add eslint and prettier for standardizing code writing.&#10;Add icon for login with google (in dev)">
+      <option name="closed" value="true" />
+      <created>1760730708994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760730708994</updated>
+    </task>
+    <task id="LOCAL-00002" summary="perf: Resolved build issue. Add svg.d.ts for svg file imports. Resolved image rendering issue. Updated the middleware.ts to comply with the changes. &#10;build: Updated next build file.">
+      <option name="closed" value="true" />
+      <created>1761076334946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761076334946</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Migrate Prettier for Biome.">
+      <option name="closed" value="true" />
+      <created>1775571410465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775571410465</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactor realApp components to use Material UI&#10;&#10;Refactored multiple components within the realApp section to replace custom HTML and CSS with Material UI components such as `Box`, `Typography`, `TextField`, `Card`, and `IconButton`. Enhanced styling consistency and simplified the UI codebase by utilizing MUI's theming capabilities. Updated `.idea/compiler.xml` to enable memory auto-increase.">
+      <option name="closed" value="true" />
+      <created>1775952230909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775952230909</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Migrate Architecture for Feature-Based.">
+      <option name="closed" value="true" />
+      <created>1775955707196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775955707196</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Remove shelved patch file to clean up unnecessary IDE-related changes.">
+      <option name="closed" value="true" />
+      <created>1776043828387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776043828387</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactor app components to adopt Material UI&#10;&#10;Replaced custom HTML and CSS with Material UI components across multiple app sections, enhancing code readability, styling consistency, and theming. Updated navigation, layouts, and feature-specific components with `Box`, `Typography`, and other MUI components.">
+      <option name="closed" value="true" />
+      <created>1776190610473</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776190610473</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Run Biome.js check">
+      <option name="closed" value="true" />
+      <created>1776191530343</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776191530343</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update CI workflow">
+      <option name="closed" value="true" />
+      <created>1776191818267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776191818267</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update CI workflow to use.">
+      <option name="closed" value="true" />
+      <created>1776192052229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776192052229</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="perf: Update the architecture of the project.&#10;Add eslint and prettier for standardizing code writing.&#10;Add icon for login with google (in dev)" />
+    <MESSAGE value="perf: Resolved build issue. Add svg.d.ts for svg file imports. Resolved image rendering issue. Updated the middleware.ts to comply with the changes. &#10;build: Updated next build file." />
+    <MESSAGE value="Migrate Prettier for Biome." />
+    <MESSAGE value="Refactor realApp components to use Material UI&#10;&#10;Refactored multiple components within the realApp section to replace custom HTML and CSS with Material UI components such as `Box`, `Typography`, `TextField`, `Card`, and `IconButton`. Enhanced styling consistency and simplified the UI codebase by utilizing MUI's theming capabilities. Updated `.idea/compiler.xml` to enable memory auto-increase." />
+    <MESSAGE value="Migrate Architecture for Feature-Based." />
+    <MESSAGE value="Remove shelved patch file to clean up unnecessary IDE-related changes." />
+    <MESSAGE value="Refactor app components to adopt Material UI&#10;&#10;Replaced custom HTML and CSS with Material UI components across multiple app sections, enhancing code readability, styling consistency, and theming. Updated navigation, layouts, and feature-specific components with `Box`, `Typography`, and other MUI components." />
+    <MESSAGE value="Run Biome.js check" />
+    <MESSAGE value="Update CI workflow" />
+    <MESSAGE value="Update CI workflow to use." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update CI workflow to use." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,11 +403,6 @@
           <url>file://$PROJECT_DIR$/src/app/(realApp)/insights/components/Calendar.tsx</url>
           <line>2</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/(realApp)/goals/components/GoalInfo.tsx</url>
-          <line>73</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/(realApp)/profile/components/UsageTimeIcon.tsx</url>

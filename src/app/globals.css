@@ -1,64 +1,18 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
-:root {
-    --blue-graph: #4DA1D8;
-    --pink-graph: #F2858E;
-    --orange-graph: #FFB86B;
-    --green-graph: #2EBCB3;
-    --yellow-graph: #F6C971;
-    --gradient-green: linear-gradient(to bottom, #397a56 0%, #418f60 50%, #5dbc75 100%);
-    --white-login: #f5f7f9;
-    --cubes-orange: #f7a14d;
-    --background: #ffffff;
-    --foreground: #171717;
-    --text-color: #333;
-    --green-theme: #5dbc75;
-    --green-start: #397a56;
-    --green-middle: #418f60;
-    --green-end: #5dbc75;
-    --btngreen-middle: #87d9a0;
-    --btngreen-end: #b2ecc0;
-    --purple-theme: #a25bae;
-    --yellow-theme: #f2d77d;
-    --orange-theme: #f7a14d;
-    --red-theme: #e05a5a;
-    --lines-color: #bdc5ce;
-    --desactive-color: #d1d8e0;
-    --box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+body {
+	font-family: "nunito", sans-serif, "Arial";
 }
 
 .btn-gradient {
-  background: var(--gradient-green);
-}
-.shadow-custom {
-  box-shadow: var(--box-shadow);
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-nunito: var(--font-nunito);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #fff;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-nunito), Arial, serif;
+	background: linear-gradient(to bottom, #397a56 0%, #418f60 50%, #5dbc75 100%);
 }
 
 .input-no-spinner::-webkit-inner-spin-button,
 .input-no-spinner::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
-
 .input-no-spinner {
-  -moz-appearance: textfield; /* Firefox */
+	-moz-appearance: textfield;
 }
